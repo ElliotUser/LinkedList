@@ -17,27 +17,11 @@ public class LinkList {
         first = newLink;
     }
 
-    public Link find(int key){
-        Link current = first;
-        while (current.iData != key){
-            if (current.next == null)
-                return null;
-            else
-                current = current.next;
-        }
-        return current;
-    }
-
     public Link deleteFirst(){
         Link temp = first;
         first = first.next;
         return temp;
     }
-
-//    public Link delete(int key){
-//        Link current = first;
-//
-//    }
 
     public void displayList(){
         System.out.print("List (first-->last): ");
@@ -46,7 +30,7 @@ public class LinkList {
             current.displayLink();
             current = current.next;
         }
-        System.out.println("");
+        System.out.println(" ");
     }
 
 
