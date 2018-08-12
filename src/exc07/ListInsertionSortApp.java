@@ -26,6 +26,6 @@ public class ListInsertionSortApp {
         for(int j = 0; j < size; j++) {
             System.out.print(linkArray[j].dData+" ");
         }
-        System.out.println("");
+        System.out.println(" ");
     }
 }

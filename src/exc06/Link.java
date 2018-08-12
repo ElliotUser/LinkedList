@@ -8,6 +8,7 @@ public class Link {
         dData = dd;
     }
 
+
     public void displayLink() {
         System.out.print(dData + " ");
     }

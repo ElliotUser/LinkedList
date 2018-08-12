@@ -4,6 +4,7 @@ public class SortedListApp {
     public static void main(String[] args) {
         SortedList theSortedList = new SortedList();
 
+
         theSortedList.insert(20);
         theSortedList.insert(40);
 

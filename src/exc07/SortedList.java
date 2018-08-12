@@ -34,5 +34,6 @@ public class SortedList {
         Link temp = first;
         first = first.next;
         return temp;
+
     }
 }
