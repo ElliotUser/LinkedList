@@ -46,7 +46,7 @@ public class LinkList2 {
     }
 
     public void displayList(){
-        System.out.print("List (first --> last): ");
+        System.out.print("Link (first --> last): ");
         Link current = first;
         while (current != null){
             current.displayLink();
